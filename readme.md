@@ -8,8 +8,8 @@ This file contains the AWS key and secret. You'll need to add your own credentia
 #### etl.py
 This is the primary file containing the code to read song and log data from the Udacity S3 bucket, and then to write the output files back to your own output folder. You should specify your own output directory for files. 
 
-The files stored in the Udacity S3 bucket can be read by setting your input drive to "s3a://udacity-dend/song_data/*/*/*/*.json" however when you are testing the code it is highly recommended that you choose a subset of the data to save time. For example, 
-"s3a://udacity-dend/song_data/A/A/*/*.json".
+The files stored in the Udacity S3 bucket can be read by setting your input drive to "s3a://udacity-dend/song_data/\*/\*/\*/\*.json" however when you are testing the code it is highly recommended that you choose a subset of the data to save time. For example, 
+"s3a://udacity-dend/song_data/A/A/\*/\*.json".
 
 
 ### Project instructions
